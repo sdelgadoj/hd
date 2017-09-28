@@ -8,7 +8,7 @@ function setup() {
   exp=10;
   giro=30;
 }
-
+//definición de movimiento de variables
 function draw() {
   background(0);
   exp+3;
