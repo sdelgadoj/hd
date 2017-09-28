@@ -1,17 +1,17 @@
 //variable de movimiento y eje Z
-var exp;
+var expe;
 var giro;
 
 function setup() {
   createCanvas(710, 400, WEBGL);
   noStroke();
-  exp=10;
+  expe=10;
   giro=30;
 }
 //definición de movimiento de variables
 function draw() {
   background(0);
-  exp+3;
+  expe+3;
   giro++;
 
   // Luz puntual rosada
@@ -27,5 +27,5 @@ function draw() {
   rotateZ(giro/24+mouseX/100);
   rotateX(frameCount * 0.03);
   rotateY(frameCount * 0.02);
-  box(120+exp);
+  box(120+expe);
 }
